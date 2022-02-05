@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 
 const App = () => {
+  let response = fetch(url);
   return (
     <div>
       <a href="https://www.shopgonegirlz.com/" target="_blank">
