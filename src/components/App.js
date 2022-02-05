@@ -3,12 +3,10 @@ import "../App.css";
 
 const App = () => {
   return (
-    <div>
-      <a href="https://www.shopgonegirlz.com/" target="_blank">
-        Click me if maclo stinks...
-      </a>
-      <br></br>
-      <input type="text" placeholder="Search place to eat..." />
+    <div class="searchbar">
+      <h2>Where to eat?</h2>
+
+      <input type="text" placeholder="Search restaurant..." />
     </div>
   );
 };
