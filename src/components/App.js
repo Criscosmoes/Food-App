@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 
 const App = () => {
-  let response = fetch(url);
   return (
     <div class="searchbar">
       <h2>Where to eat?</h2>
