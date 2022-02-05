@@ -7,14 +7,13 @@ const App = () => {
     let places = await response.json();
     console.log(places);
   };
+
   return (
-    <div>
-      <button onClick={fetchPlaces}>Click Me</button>
-      <a href="https://www.shopgonegirlz.com/" target="_blank">
-        Click me if maclo stinks...
-      </a>
-      <br></br>
-      <input type="text" placeholder="Search place to eat..." />
+    <div class="searchbar">
+      <h2>Where to eat?</h2>
+
+      <input type="text" placeholder="Search restaurant..." />
+      <button onClick={fetchPlaces}>Click me</button>
     </div>
   );
 };
